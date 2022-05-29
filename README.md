@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# H&M react site
+<p  align="center"><img width="1440" alt="H&M" src="https://user-images.githubusercontent.com/103023312/170871441-c9c8b941-4091-4804-bbcd-9246fb77d789.png" width="90%">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+리액트 라우터를 사용하여 H&M사이트를 제작하였습니다. <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+제작기간 : 2022.05.27 - 2022.05.29 <br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+➡️[DEMO SITE](https://hnm-react.netlify.app/)⬅️
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🚶🏼‍♀️ 기능
+* react로 H&M사이트를 리뉴얼했습니다. 
+* 사용자가 한눈에 보기 편하게 상품의 사진을 크게 배치하고 호버시에 사진이 불투명해져 명확하게 구분할수있습니다.
+* 가상의 라우터를 사용하여 제품들을 불러왔고 제품을 클릭하면 상세 페이지로 넘어갑니다.
+* 사용자는 로그인을 해야만 디테일 페이지를 볼 수 있도록 제작하였습니다.
+* 로그인 상태에선 로그아웃 버튼이 로그아웃상태에선 로그인 버튼이 보입니다.
+* 반응형으로 모바일에서는 사이드메뉴를 볼 수 있습니다.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🔗 사용한 기술
+* Html5
+* Css3
+* Javascript
+* React
