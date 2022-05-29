@@ -7,6 +7,8 @@ import ProductAll from './page/ProductAll';
 import ProductDetail from './page/ProductDetail';
 import Navbar from './component/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
+import PrivateRoute from './route/PrivateRoute';
 
 //1.전체 상품 페이지. 로그인. 상품상세페이지
 //2 전체 상품페이지에서 전체 상품 볼 수 있다
@@ -20,13 +22,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
+
+  //로그인 유무
+  const [authenticate,setAuthenticate]=useState(false); //false=안됨 true=됨
+
   return (
     <div>
-      <Navbar />
+      <Navbar authenticate={authenticate} setAuthenticate={setAuthenticate} />
       <Routes>
         <Route path="/" element={<ProductAll />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/login" element={<Login setAuthenticate={setAuthenticate} />} />
+        <Route path="/products/:id" element={<PrivateRoute authenticate={authenticate} />} />
       </Routes>
     </div>
   );

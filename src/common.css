@@ -32,6 +32,8 @@ body,input,textarea{
 	font-weight:300; /* IE8 이하버전 대응 */
 	font-family: 'Noto Sans KR', sans-serif;
 }
+
+input:focus{outline: none;}
 img{
 	vertical-align:top;
 	font-size:0;
